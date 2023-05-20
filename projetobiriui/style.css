@@ -1,0 +1,27 @@
+:root{
+    --cor--toperod: black;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--cor--toperod);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 120px;
+}
+
+footer{
+    background-color: var(--cor--toperod);
+   
+}
+
+.final{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
